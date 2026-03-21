@@ -8,7 +8,7 @@ public class TaskModel {
     private String ownerUsername;
 
 
-    public TaskModel(Integer id, String title, String description, Boolean completed) {
+    public TaskModel(Integer id, String title, String description, Boolean completed, String ownerUsername) {
         this.id = id;
         this.title = title;
         this.description = description;
